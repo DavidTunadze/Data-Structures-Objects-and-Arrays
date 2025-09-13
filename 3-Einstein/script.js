@@ -1,0 +1,15 @@
+//Einstein's formula E=mc2 in JavaScript
+let userMass = prompt ("Write down how much you weigh."); //M mass
+
+const lightSpeed = 300000000; //C The speed of light
+let square = lightSpeed * lightSpeed;
+
+let energy = userMass * square;
+
+let formula = [];
+formula.push(`E energy = ${energy}`);
+formula.push(`M mass = ${userMass}`);
+formula.push(`C The speed of light = ${lightSpeed}`);
+
+console.log (formula);
+console.log (`E = m * c2\n Where M or your weught\n times C squared or the sped of light square equals\n energy E`)

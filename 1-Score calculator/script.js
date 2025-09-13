@@ -20,7 +20,7 @@ function scoreCalculator (user, array) {
     } else if (user >= 60 && user <= 69) {
         score = `Student's Score: ${user} \n Grade: ${array[3]}`;
     } else if (user > 0 && user <= 59) {
-        score = `Student's Score: ${user} \n Grade: ${array[4]}`;
+        score = ` Student's Score: ${user} \n Grade: ${array[4]}`;
     } else {
         user = prompt("That's not a valid number! Enter a number from 0 to 100:");
     }
