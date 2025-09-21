@@ -1,14 +1,14 @@
-//A program that calculates how much you should leave as a tip at a restaurant
+//A program that calculates how much you should leave as a tip at a restaurantgit
 let userAmountPaid = prompt ("Enter the amount you need to pay.");
 
 function convertingMoney (userAmountPaid) {
-    return parseFloat (userAmountPaid);
+    return parseFloat (userAmountPaid.replace("$", ""));
 }
 
 let teaPercentage = prompt ("Enter the percentage of the amount paid to be kept as a deposit.");
 
 function convertPercentage (teaPercentage) {
-    return parseFloat (teaPercentage);
+    return parseFloat (teaPercentage.replace("%", ""));
 }
 
 let calculation = (convertingMoney(userAmountPaid) / 100) * convertPercentage(teaPercentage);  
