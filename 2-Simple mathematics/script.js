@@ -1,4 +1,4 @@
-//
+//Simple mathematics Mathematical operations with two numbers
 let firstNumber = parseInt(prompt("What is the first number?"));
 let secondNumber = parseInt(prompt("What is the second number?"));
 

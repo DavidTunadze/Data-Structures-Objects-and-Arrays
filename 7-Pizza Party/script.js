@@ -1,4 +1,4 @@
-//
+//Calculate how many slices of pizza your friends will get
 let numberOfGuest = parseInt (prompt ("How many friends do you want pizza for?"));
 let numberOfPizzas = parseInt (prompt ("How many pizzas do you want?"));
 let numberOfSlices = parseInt (prompt ("How many slices should each pizza have?"));
